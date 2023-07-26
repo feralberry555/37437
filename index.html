@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-        <link rel="icon" type="images/x-icon" href="icon2.icon"> 
+        <link rel="icon" type="images/x-icon" href="img/icon2.icon"> 
         <title>Ресторан</title>
     <link rel="stylesheet"
     href="style.css">   
@@ -58,10 +58,18 @@
                         <a class="button" href="@">ЗАКАЗ СТОЛИКА</a>
                     </div>
 
-                    <div class="burger-menu">
-                        <a href="">
+                    <div id="burger" class="burger-menu">
+                        <button id="burger">
                             <img src="img/burger-img.png.png">
-                        </a>
+                        </button>
+
+                        <div id="menu" class="burger-slide disp">
+                            <a class="nav-item block" href="@">ГЛАВНАЯ</a>
+                            <a class="nav-item block" href="@">МЕНЮ</a>
+                            <a class="nav-item block" href="@">О НАС</a>
+                            <a class="nav-item block" href="@">БРОНЬ</a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -417,5 +425,7 @@
         <div class="footer">
             Copyright 2023
         </div>
+
+        <script src="apps.js"></script>
     </body>
 </html>
