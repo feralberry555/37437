@@ -528,6 +528,25 @@ transition: background-color 0.3s linear ;
     display: none;
 }
 
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+}
+
+button {
+    border: none;
+    outline: none; /*Внешняя граница - outline*/
+    background-color: transparent; /*transparent - прозрачный*/
+}
+
+.disp {
+    display: none;
+}
+
+
 @media (max-width: 1300px) {
     .menu-items {
         display: block;
@@ -601,6 +620,7 @@ transition: background-color 0.3s linear ;
     .galery-left {
         margin-right: 0;
     }
+
 }
 
 @media (max-width: 1185px) {
@@ -655,6 +675,7 @@ transition: background-color 0.3s linear ;
     .high {
         display: none;
     }
+
 }
 
 
