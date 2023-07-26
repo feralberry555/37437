@@ -528,31 +528,6 @@ transition: background-color 0.3s linear ;
     display: none;
 }
 
-
-
-@media (max-width: 1500px) {
-
-    .galery-content {
-        display: block;
-    }
-
-    .img-gal,
-    .galery-up,
-    .galery-down {
-        display: block;
-        margin-left: auto;
-        margin-right: auto; /*С помощью выравнивания margin-left и margin-right, мы можем выровнять контент по центру*/ 
-    }
-
-    .img-gal {
-        margin-bottom: 20px;
-    }
-
-    .galery-left {
-        margin-right: 0;
-    }
-}
-
 @media (max-width: 1300px) {
     .menu-items {
         display: block;
@@ -605,6 +580,26 @@ transition: background-color 0.3s linear ;
     .history-desc,
     .history-number {
         width: auto;
+    }
+
+    .galery-content {
+        display: block;
+    }
+
+    .img-gal,
+    .galery-up,
+    .galery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; /*С помощью выравнивания margin-left и margin-right, мы можем выровнять контент по центру*/ 
+    }
+
+    .img-gal {
+        margin-bottom: 20px;
+    }
+
+    .galery-left {
+        margin-right: 0;
     }
 }
 
